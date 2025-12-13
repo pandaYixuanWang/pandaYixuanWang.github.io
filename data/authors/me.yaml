@@ -1,116 +1,38 @@
-schema: hugoblox/author/v1
-slug: me
-is_owner: true
+slug: "me"
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+  display: "Yixuan Wang"
+  given: "Yixuan"
+  family: "Wang"
+  pronouns: she/her
+role: "Ph.D. Student"
+bio: "Yixuan Wang is a highly accomplished Ph.D. Candidate in Computer Science at Arizona State University, specializing in the interdisciplinary fields of Human-AI Interaction, Large Language Model (LLM) research, and Explainable AI (XAI). With over four years of experience, his research focuses on advancing machine learning system development and evaluation, particularly in the areas of AI trust calibration and uncertainty quantification. Yixuan has published first-author work in leading venues like IEEE Transactions on Visualization and Computer Graphics (TVCG) and the International Journal of Human-Computer Interaction , where he developed simulation-based frameworks using Python and PyTorch to quantify cost-benefit tradeoffs in interactive ML systems and rigorously evaluated XAI techniques and their impact on human trust. Demonstrating strong engineering proficiency alongside his research expertise, he has built scalable experimental infrastructures, developed visual analytics systems for federated learning at the University of Illinois Urbana-Champaign (UIUC) , and engineered robust data pipelines and a full-stack monitoring system using Flask, React, and SQL during his industry experience as a Data Engineer Intern at Wayfair."
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
-bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
-
-affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
-
+  icon: "🎓"
+is_owner: true
+schema: "hugoblox/author/v1"
+weight: null
 links:
-  - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
-
+  - icon: "hero/at-symbol"
+    url: "mailto:ywan1290@asu.edu"
+    label: "Email"
+  - icon: "brands/linkedin"
+    url: "https://www.linkedin.com/in/yixuanwang25/"
+    label: "LinkedIn"
+  - icon: "academicons/google-scholar"
+    url: "https://scholar.google.com/citations?user=4fdEu5gAAAAJ&hl=en&oi=ao"
+    label: "Google Scholar"
+ids:
+  google_scholar: "4fdEu5gAAAAJ&hl"
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
-
-education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
-
-experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
-skills:
-  - name: Technical Skills
-    items:
-      - label: Pytho
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
-
+  - "Large Language Model"
+  - "Machine Learning System"
+  - "Human Computer Interaction"
+  - "Interactive Machine Learning"
+  - "Artificial Intelligence Uncertainty"
 languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
-
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - name: "English"
+    level: null
+    label: "Native"
+  - name: "Chinese"
+    level: null
+    label: "Fluent"
