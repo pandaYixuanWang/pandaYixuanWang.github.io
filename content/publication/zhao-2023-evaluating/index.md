@@ -7,7 +7,7 @@ authors:
 - Erin K Chiou
 - Ross Maciejewski
 date: '2023-01-01'
-publishDate: '2026-01-06T08:48:34.783885Z'
+publishDate: '2026-02-05T09:40:25.650063Z'
 publication_types:
 - article-journal
 publication: '*IEEE Transactions on Visualization and Computer Graphics*'

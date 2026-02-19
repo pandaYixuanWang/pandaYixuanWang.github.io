@@ -1,28 +1,38 @@
+schema: "hugoblox/author/v1"
 slug: "me"
+is_owner: true
 name:
   display: "Yixuan Wang"
   given: "Yixuan"
   family: "Wang"
-  pronouns: she/her
-role: "Ph.D. Student"
-bio: "Yixuan Wang is a highly accomplished Ph.D. Candidate in Computer Science at Arizona State University, specializing in the interdisciplinary fields of Human-AI Interaction, Large Language Model (LLM) research, and Explainable AI (XAI). With over four years of experience, his research focuses on advancing machine learning system development and evaluation, particularly in the areas of AI trust calibration and uncertainty quantification. Yixuan has published first-author work in leading venues like IEEE Transactions on Visualization and Computer Graphics (TVCG) and the International Journal of Human-Computer Interaction , where he developed simulation-based frameworks using Python and PyTorch to quantify cost-benefit tradeoffs in interactive ML systems and rigorously evaluated XAI techniques and their impact on human trust. Demonstrating strong engineering proficiency alongside his research expertise, he has built scalable experimental infrastructures, developed visual analytics systems for federated learning at the University of Illinois Urbana-Champaign (UIUC) , and engineered robust data pipelines and a full-stack monitoring system using Flask, React, and SQL during his industry experience as a Data Engineer Intern at Wayfair."
+  alternate: ""
+  pronunciation: ""
+  pronouns: "she/her"
+postnominals:
+  - "PhD"
+  - ""
 status:
   icon: "🎓"
-is_owner: true
-schema: "hugoblox/author/v1"
-weight: null
+role: "Ph.D. Student"
+bio: "Yixuan Wang is a Ph.D. Candidate in Computer Science at Arizona State University, specializing in Human-AI Interaction, Large Language Models (LLMs), and Explainable AI (XAI). Her research focuses on AI trust calibration, uncertainty quantification, and the evaluation of machine learning systems. She has published first-author work in IEEE TVCG and the International Journal of Human-Computer Interaction, developing simulation-based frameworks in Python and PyTorch to assess interactive ML systems and XAI techniques.She also brings strong engineering experience, having built scalable research infrastructures, developed federated learning analytics systems at UIUC, and engineered data pipelines and monitoring systems as a Data Engineer Intern at Wayfair."
+
+affiliations:
+  - name: "Arizona State University"
+    url: "https://www.asu.edu/"
 links:
-  - icon: "hero/at-symbol"
-    url: "mailto:ywan1290@asu.edu"
-    label: "Email"
+  - icon: "at-symbol"
+    url: "mailto:mailto:ywan1290@asu.edu"
+    label: "E-mail Me"
+  # - icon: "brands/x"
+  #   url: "https://x.com/example"
+  # - icon: "brands/github"
+  #   url: "https://github.com/example"
   - icon: "brands/linkedin"
     url: "https://www.linkedin.com/in/yixuanwang25/"
-    label: "LinkedIn"
   - icon: "academicons/google-scholar"
     url: "https://scholar.google.com/citations?user=4fdEu5gAAAAJ&hl=en&oi=ao"
-    label: "Google Scholar"
-ids:
-  google_scholar: "4fdEu5gAAAAJ&hl"
+  - icon: "academicons/orcid"
+    url: "https://orcid.org/0009-0000-8237-5962"
 interests:
   - "Large Language Model"
   - "Machine Learning System"
@@ -30,42 +40,64 @@ interests:
   - "Interactive Machine Learning"
   - "Artificial Intelligence Uncertainty"
   - "Data Visualization"
-languages:
-  - name: "English"
-    level: null
-    label: "Native"
-  - name: "Chinese"
-    level: null
-    label: "Fluent"
 education:
   - degree: "Ph.D. in Computer Science"
     institution: "Arizona State University"
-    start: "2021-01-01"
-    end: ""
-    summary: ""
-  - degree: "M.S. in Computer Systems Engineering - Software Design"
+    # start: "2021 Jan"
+    # end: "2026 May"
+    # summary: ""
+  - degree: "M.S. in Computer System Engineering "
     institution: "Northeastern University"
-    start: ""
-    end: ""
-    summary: ""
+    # start: "2018 Jan"
+    # end: "2020 May"
   - degree: "B.E. in Automation"
     institution: "Central South University"
-    start: ""
-    end: ""
-    summary: ""
-experience:
-  - role: "Research Assistant"
-    org: "Arizona State University"
-    start: "2021-01-01"
-    end: "2026-06-05"
-    summary: ""
-  - role: "Visiting Researcher"
-    org: "University of Illinois Urbana-Champaign"
-    start: "2023-05-01"
-    end: "2023-08-01"
-    summary: ""
-  - role: "Data Engineer Intern"
-    org: "Wayfair"
-    start: "2019-07-01"
-    end: "2019-12-01"
-    summary: ""
+    # start: "2013 Sep"
+    # end: "2017 Jun"
+# experience:
+#   - role: "Senior AI Research Scientist"
+#     org: "Meta AI"
+#     start: "2020-01-01"
+#     summary: "Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.\n"
+#     button:
+#       text: "View portfolio"
+#       url: "/"
+#       icon: "hero/arrow-down-tray"
+#   - role: "AI Research Intern"
+#     org: "OpenAI"
+#     start: "2019-06-01"
+#     end: "2019-12-31"
+#     summary: "Worked on GPT-3 scaling. Co-authored paper on prompt engineering.\n"
+# skills:
+#   - name: "Technical Skills"
+#     items:
+#       - label: "Python"
+#         level: 5
+#       - label: "Machine Learning"
+#         level: 5
+#       - label: "Cloud Computing"
+#         level: 4
+#   - name: "Research & Communication"
+#     items:
+#       - label: "Academic Writing"
+#         level: 5
+#       - label: "Conference Presentations"
+#         level: 4
+#       - label: "Grant Proposals"
+#         level: 4
+languages:
+  - name: "English"
+    level: 5
+    label: "Native"
+  - name: "Chinese"
+    level: 5
+    label: "Native"
+# awards:
+#   - title: "Best Paper Award"
+#     awarder: "NeurIPS"
+#     date: "2022-12-01"
+#     summary: "Awarded for groundbreaking work on efficient training of large models."
+#     icon: "hero/trophy"
+ids:
+  google_scholar: "4fdEu5gAAAAJ"
+  orcid: "0009-0000-8237-5962"

@@ -1,0 +1,28 @@
+{{/* Modified author rendering partial */}}
+{{ $authors := .Params.authors }}
+{{ if $authors }}
+{{- $identity := site.Params.identity.name | default "Yixuan Wang" -}}
+<span class="article-metadata li-cite-author">
+  {{ range $index, $author := $authors }}
+  {{ if gt $index 0 }}, {{ end }}
+  {{ $slug := $author | urlize }}
+  {{ $author_page := site.GetPage (printf "/authors/%s" $slug) }}
+  {{ $highlight_name := or (eq $slug "yixuan-wang") (eq $slug "me") }}
+  {{ $display_name := $author }}
+
+  {{ if $highlight_name }}
+  {{ $display_name = $identity }}
+  {{ else if $author_page }}
+  {{ $display_name = $author_page.Title }}
+  {{ end }}
+
+  {{ if $highlight_name }}
+  <span class="font-bold underline">{{ $display_name }}</span>
+  {{ else if $author_page }}
+  <a href="{{ $author_page.RelPermalink }}">{{ $display_name }}</a>
+  {{ else }}
+  <span>{{ $display_name }}</span>
+  {{ end }}
+  {{ end }}
+</span>
+{{ end }}
