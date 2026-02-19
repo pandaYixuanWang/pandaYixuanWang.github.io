@@ -1,0 +1,9 @@
+/* make the pdf and cite link bolded */
+a.pdf-link,
+a.cite-link,
+a.hb-attachment-link-small,
+button.hb-attachment-link-small {
+  font-weight: bold;
+  font-size: 1em;
+  /* Adjust the size as needed */
+}
